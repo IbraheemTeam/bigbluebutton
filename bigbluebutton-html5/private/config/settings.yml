@@ -6,19 +6,19 @@ public:
     autoJoin: true
     listenOnlyMode: true
     forceListenOnly: false
-    skipCheck: false
-    clientTitle: BigBlueButton
-    appName: BigBlueButton HTML5 Client
+    skipCheck: true
+    clientTitle: myTutor
+    appName: myTutor
     bbbServerVersion: 2.0-rc
-    copyright: "©2018 BigBlueButton Inc."
+    copyright: "©2018 myTutor Inc."
     html5ClientBuild: HTML5_CLIENT_VERSION
     lockOnJoin: true
-    basename: "/html5client"
+    basename: "/tutorhub"
     askForFeedbackOnLogout: false
     defaultSettings:
       application:
-        chatAudioAlerts: false
-        chatPushAlerts: false
+        chatAudioAlerts: true
+        chatPushAlerts: true
         fontSize: 16px
         fallbackLocale: en
       audio:
@@ -94,11 +94,11 @@ public:
         max: 640
       height:
         max: 480
-    enableScreensharing: false
-    enableVideo: false
+    enableScreensharing: true
+    enableVideo: true
     enableVideoStats: false
     enableListenOnly: false
-    autoShareWebcam: false
+    autoShareWebcam: true
   acl:
     viewer:
       subscriptions:
@@ -220,7 +220,7 @@ public:
         update: DRAW_UPDATE
         end: DRAW_END
     toolbar:
-      multiUserPenOnly: false
+      multiUserPenOnly: true
       colors:
       - label: black
         value: "#000000"
